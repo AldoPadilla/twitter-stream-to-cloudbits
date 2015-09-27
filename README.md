@@ -8,7 +8,7 @@ Very small server-side app to filter the twitter streaming API for a list of @ha
 
 #### 1) Have Node.js installed. 
 
-Check under terminal 'node -v'. Latest tested version for this is v4.0.0
+Check under terminal `node -v`. Latest tested version for this is v4.0.0
 
 
 #### 2) Get Twitter API credentials and put them into the config.js file
@@ -48,6 +48,6 @@ Place the handles you want to listen for on lines `14, 17, 20`
 #### 5) Run the server
 
 1. Be connected to the interwebz
-1. Launch terminal and go to the directory this repo is at 'cd .. ''
+1. Launch terminal and go to the directory this repo is at `cd .. '`
 1. Run your Node.js server: `$ node index.js`
 1. It should now be listening to Twitter for your select handles
