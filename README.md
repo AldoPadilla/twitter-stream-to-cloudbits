@@ -6,7 +6,9 @@ Very small server-side app to filter the twitter streaming API for a list of @ha
 
 ## To deploy & use
 
-#### 1) Have Node.js installed. Check under terminal 'node -v'. Latest tested version for this is v4.0.0
+#### 1) Have Node.js installed. 
+
+Check under terminal 'node -v'. Latest tested version for this is v4.0.0
 
 
 #### 2) Get Twitter API credentials and put them into the config.js file
@@ -21,7 +23,7 @@ Very small server-side app to filter the twitter streaming API for a list of @ha
   - Access Token
   - Access Token Secret
 
-All 4 items go in the constructor of the `twitter` class. Under directory: 'src > config.js' lines '6,7,8,9'
+All 4 items go in the constructor of the `twitter` class. Under directory: `src > config.js` lines `6,7,8,9`
 
 
 #### 3)Get LittleBits Cloud API credentials and put them into the config.js file
@@ -34,18 +36,18 @@ All 4 items go in the constructor of the `twitter` class. Under directory: 'src 
 
 Device ID is specific to the cloudBit, while AccessToken is global to the user account, and gives access to all cloudBits on the given account.
  
-Go to 'src > config.js' 
-Place your AccessToken on line 3 'access_token:'''
-Place your Device ID on line 15 'cloudBit:'''
+Go to `src > config.js` 
+Place your AccessToken on line 3 `access_token:''`
+Place your Device ID on line 15 `cloudBit:''`
 
 #### 4) Choose the handles to listen to
 
-Place the handles you want to listen for on lines '14, 17, 20'
+Place the handles you want to listen for on lines `14, 17, 20`
 
 
 #### 5) Run the server
 
 1. Be connected to the interwebz
 1. Launch terminal and go to the directory this repo is at 'cd .. ''
-1. Run your Node.js server: '$ node index.js'
+1. Run your Node.js server: `$ node index.js`
 1. It should now be listening to Twitter for your select handles
